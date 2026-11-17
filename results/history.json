@@ -1,0 +1,10 @@
+{
+  "research": "continuous",
+  "versions": [
+    {
+      "updated_at": "2026-11-17T16:40:27.996012+00:00",
+      "latest_sha256": "8306c54bad38b1da0623eed31fc36529f7b5309f387c1e771013117b4e03d283",
+      "experiment_count": 6
+    }
+  ]
+}

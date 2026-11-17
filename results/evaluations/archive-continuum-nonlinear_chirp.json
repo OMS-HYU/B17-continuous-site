@@ -1,0 +1,70 @@
+{
+  "case": "nonlinear_chirp",
+  "phase_updates": 100,
+  "generation_wavelength_samples": 441,
+  "reconstruction_wavelength_samples": 38,
+  "noise_fraction_of_mean": 0.0,
+  "true_centroid_nm": 550.0,
+  "initial": {
+    "spectral_shape_tv": 0.24630250257141142,
+    "estimated_centroid_nm": 549.9249670523192,
+    "recovered_total_power": 0.6615101975593817,
+    "spectral_power_weighted_phase_rmse_rad": 0.9914644797670622
+  },
+  "final": {
+    "spectral_shape_tv": 0.06263118681059773,
+    "estimated_centroid_nm": 549.8058252519724,
+    "recovered_total_power": 0.8882449077070067,
+    "spectral_power_weighted_phase_rmse_rad": 0.30309678303333204
+  },
+  "final_sensor_relative_l2": 0.05926320850787281,
+  "power_fit_history": [
+    {
+      "after_phase_updates": 0,
+      "sensor_relative_l2": 0.5399357264496099
+    },
+    {
+      "after_phase_updates": 20,
+      "sensor_relative_l2": 0.18615286237120238
+    },
+    {
+      "after_phase_updates": 40,
+      "sensor_relative_l2": 0.11199124530568189
+    },
+    {
+      "after_phase_updates": 60,
+      "sensor_relative_l2": 0.08082669097563312
+    },
+    {
+      "after_phase_updates": 80,
+      "sensor_relative_l2": 0.06511289701882106
+    }
+  ],
+  "spectrum_knots_nm": [
+    440.0,
+    462.0,
+    484.0,
+    506.0,
+    528.0,
+    550.0,
+    572.0,
+    594.0,
+    616.0,
+    638.0,
+    660.0
+  ],
+  "recovered_density_per_nm": [
+    0.0013699360490424589,
+    7.529605896725884e-05,
+    0.0,
+    0.00156509371581959,
+    0.010163201174947104,
+    0.015099333803357828,
+    0.010875000744449305,
+    0.0012608777759629335,
+    0.0,
+    0.0,
+    0.0013019944682228384
+  ],
+  "runtime_seconds": 80.82376772499993
+}
